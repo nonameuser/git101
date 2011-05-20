@@ -1,14 +1,16 @@
 package com.nonameuser;
 
-public class Person {
-	private String name;
-	
-	public Person(String name) {
-		this.name = name;
-	}
-	
-	public String toString(){
-		return name;
-	}
+public class Person{
+    private String firstName;
+    private String lastName;
+
+    public Person(String firstName, String lastName){
+	this.firstName = firstName;
+	this.lastName = lastName;
+    }
+
+    public String toString(){
+	return firstName + " " + lastName;
+    }
 
 }
