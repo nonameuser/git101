@@ -6,7 +6,8 @@ public class HelloWorld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-	    System.out.println("Hello World!");
+	    Person jason = new Person("Jason", "Kaufmann");
+	    System.out.println("Hello " + jason.toString() + "!");
 
 	}
 }
